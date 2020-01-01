@@ -1,0 +1,21 @@
+{
+	"name": "Otherworldly Mech Pad",
+	"description": "Transform into the Otherworldly mech.",
+	"type": "MechPad",
+	"mech": "otherworldly-mech",
+	"size": 5,
+	"consumes": {
+		"power": 15.0
+	},
+	"category": "upgrade",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "lead", "amount": 3000 },
+		{ "item": "titanium"   , "amount": 3140 },
+		{ "item": "silicon"    , "amount": 3140 },
+		{ "item": "graphite"   , "amount": 3150 },
+		{ "item": "silicon"    , "amount": 1150 },
+		{ "item": "surge-alloy", "amount": 750  },
+		{ "item": "metaglass"  , "amount": 1700 }
+	]
+}

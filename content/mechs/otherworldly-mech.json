@@ -1,0 +1,20 @@
+{
+	"name": "Otherworldly Mech",
+	"description": "A mech fom other world...",
+	"speed": 0.4,
+	"boostSpeed": 0.9,
+	"buildPower": 3.0,
+	"engineColor": "ff0601",
+	"flying": false,
+	"health": 10000,
+	"weaponOffsetX": 0,
+	"drillPower": 1,
+	"itemCapacity": 250,
+	"weapon": {
+		"name": "om-blaster",
+		"length": 1.5,
+		"reload": 4,
+		"alternate": false,
+		"bullet": "lightning"
+	}
+}

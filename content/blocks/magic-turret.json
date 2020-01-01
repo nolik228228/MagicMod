@@ -1,0 +1,52 @@
+{
+	"type": "ItemTurret",
+	"name": "Magic Turret",
+	"description": "The Magic Turret. Super turret. Can kill Eradicator!",
+	"health": 4200,
+	"size": 3,
+	"hasPower": false,
+	"reload": 15,
+	"range": 460,
+	"ammoUseEffect": "teleportActivate",
+	"ammoPerShot": 6,
+	"inaccuracy": 5,
+	"rotatespeed": 32,
+	"ammo": {
+		"magic-ingot": {
+			"speed": 6,
+			"damage": 200,
+			"incendAmount": 20,
+			"incendSpread": 20,
+			"incendChance": 10,
+			"homingPower": 1,
+			"homingRange": 30,
+			"bulletWidth": 5,
+			"bulletHeight": 10,
+			"frontColor": "FF0a0a",
+			"backColor": "FEAEEA",
+			"lifetime": 100
+		},
+		"pyratite": {
+			"speed": 5,
+			"damage": 190,
+			"incendAmount": 20,
+			"incendSpread": 20,
+			"incendChance": 15,
+			"homingPower": 1,
+			"homingRange": 30,
+			"bulletWidth": 5,
+			"bulletHeight": 10,
+			"frontColor": "ba9f02",
+			"backColor": "a07803",
+			"lifetime": 100
+		}
+	},
+	"requirements": [
+		{ "item": "magic-ingot", "amount": 12000 },
+		{ "item": "copper", "amount": 20000 },
+		{ "item": "titanium", "amount": 20000 },
+		{ "item": "surge-alloy", "amount": 5000 }
+	],
+	"category": "turret",
+	"research": "magic-ingot-creator"
+}

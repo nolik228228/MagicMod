@@ -1,0 +1,17 @@
+{
+  "type": "flyingUnit",
+  "name": "[red]Otherworldly Killer[]",
+  "description": "[red]Otherworldly Killer[].\n Attacks enemies with lightning from the mouth.\nDeal huge damage, has a huge amount of health, but doesn't really want to attack enemies.",
+  "speed": 0.01,
+  "flying": true,
+  "health": 22000,
+  "engineOffset": 5.5,
+  "range": 400,
+  "weapon": {
+    "name": "ok-blaster",
+    "length": 3.5,
+    "reload": 0.1,
+    "alternate": true,
+    "bullet": "lightning"
+  }
+}

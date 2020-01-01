@@ -1,0 +1,12 @@
+{
+	"name": "Magic Essence",
+	"description": "[#BC88EF]|[#C9F8FF]|[#FFFFE8]|[]|[]|[]|",
+	"color": "#D5BEFF",
+	"barColor": "#D5BEFF",
+	"lightColor": "#E6D8FF",
+	"flammability": 0,
+	"temperature": 0.15,
+	"heatCapacity": 0.4,
+	"viscosity": 0.6,
+	"explosiveness": 0
+}

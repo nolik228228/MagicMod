@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Magic conveyor",
+	"description": "Magic conveyor. Too fast.",
+	"requirements": [
+		{"item": "titanium"   , "amount": 2},
+		{"item": "copper"     , "amount": 2},
+		{"item": "lead"       , "amount": 2},
+		{"item": "magic-ingot", "amount": 2}
+	],
+	"category": "distribution",
+	"speed": 0.20,
+	"research": "titanium-conveyor"
+}

@@ -1,0 +1,26 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Magic generator",
+	"description": "Magically produces power from magic dust. I don't know how it works",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 30,
+	"powerProduction": 50,
+	"health": 500,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "magic-dust", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "titanium", "amount": 100}
+	],
+	"category": "power",
+	"research": "magic-dust-creator"
+} 

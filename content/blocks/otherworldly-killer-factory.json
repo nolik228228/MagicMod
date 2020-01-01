@@ -1,0 +1,28 @@
+{
+  "name": "[red]Otherwordly Killer[] Summoner",
+  "description": "Summons the [red]Otherworldly Killer[]s",
+  "type": "UnitFactory",
+  "unitType": "otherworldly-killer",
+  "size": 7,
+  "produceTime": 16000,
+  "maxSpawn": 16,
+  "consumes": {
+    "power": 5.5,
+    "items": {
+      "items": [
+        {"item": "silicon", "amount": 2500},
+        {"item": "thorium", "amount": 750},
+        {"item": "copper", "amount": 3000},
+        {"item": "magic-dust", "amount": 1350}
+      ]
+    }
+  },
+  "category": "units",
+  "research": "wraith-factory",
+  "requirements": [
+    { "item": "silicon", "amount": 400 },
+    { "item": "titanium", "amount": 4200 },
+    { "item": "thorium", "amount": 2200 },
+    { "item": "magic-ingot", "amount": 3300 }
+  ]
+}

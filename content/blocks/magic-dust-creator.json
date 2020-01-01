@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Magic dust creator",
+	"description": "Combines magic essence, graphite and silicon to produce Magic Dust.",
+	"liquidCapacity": 10,
+	"outputItem": {"item": "magic-dust", "amount": 3},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"health": 350,
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "graphite", "amount": 1 },
+				{ "item": "silicon", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "magic-essence",
+			"amount": 0.1
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "titanium", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "silicon-smelter"
+}
